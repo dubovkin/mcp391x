@@ -1,0 +1,6 @@
+adc@0 {
+        compatible = "microchip,mcp3913";
+        reg = <0>;
+        vref-supply = <&vref>;
+        spi-max-frequency = <4000000>;
+};
